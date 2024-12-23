@@ -1,0 +1,155 @@
+/* General Page Styles */
+.help-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styles */
+.help-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #e5f3ff;
+}
+
+.help-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.help-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.help-hero {
+    background-color: #87cefa;
+    padding: 50px 10%;
+}
+
+.help-hero h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.help-search {
+    display: flex;
+    justify-content: center;
+}
+
+/* Search Wrapper */
+.search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+.search-wrapper input {
+    width: 100%;
+    padding: 10px 15px 10px 40px;
+    /* Đệm cho biểu tượng kính lúp */
+    border: 2px solid #007bff;
+    /* Viền xanh đậm */
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: rgba(135, 206, 250, 0.3);
+    /* Màu nền nhạt hơn */
+    color: #000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.search-wrapper input:focus {
+    border-color: #0056b3;
+    /* Thay đổi màu viền khi focus */
+    background-color: rgba(135, 206, 250, 0.5);
+    /* Màu nền thay đổi khi focus */
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #666;
+    pointer-events: none;
+}
+
+
+/* Categories Section */
+.help-categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 10%;
+}
+
+.help-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.help-card:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.help-card img {
+    width: 120px;
+    /* Chỉnh width của ảnh */
+    height: auto;
+    /* Đảm bảo tỉ lệ gốc */
+    margin-bottom: 10px;
+}
+
+.help-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.help-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Footer Section */
+.help-footer {
+    margin-top: 40px;
+    padding: 20px 10%;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.help-footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.help-footer p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}

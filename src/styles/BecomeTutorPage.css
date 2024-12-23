@@ -1,0 +1,142 @@
+/* Global Styles */
+.become-tutor-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .tutor-hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+  }
+  
+  .become-tutor-hero-content {
+    max-width: 60%;
+  }
+  
+  .become-tutor-hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .steps {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .hero-image {
+    max-width: 35%;
+    height: auto;
+  }
+  
+  /* Benefits Section */
+  .benefits-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 10%;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .benefit h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .benefit p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Connect Section */
+  .connect-section {
+    display: flex;
+    align-items: center;
+    padding: 40px 10%;
+    background-color: #f9f9f9;
+  }
+  
+  .connect-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .connect-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .connect-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .connect-content ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .connect-content ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+  }
+  
+  .connect-image {
+    flex: 1;
+    max-width: 50%;
+    height: auto;
+  }
+  
+  /* FAQ Section */
+  .faq-section {
+    padding: 40px 10%;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .faq-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+  
+  .faq-item {
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faq-item:hover {
+    background-color: #f1f1f1;
+  }
+  

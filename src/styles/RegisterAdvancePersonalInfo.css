@@ -1,0 +1,142 @@
+/* Tổng quan */
+.register-advance-page {
+    background-color: #f4f7fb;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .register-advance-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-advance-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .register-advance-subtitle {
+    text-align: center;
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 20px;
+  }
+  
+  .register-advance-subtitle .login-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-advance-subtitle .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form */
+  .register-advance-form {
+    margin-top: 20px;
+  }
+  
+  .register-advance-form .form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    flex: 1;
+    position: relative;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 0.9rem;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .text-input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    background-color: #f9f9f9;
+  }
+  
+  .text-input:focus {
+    border-color: #007bff;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  .text-input:hover {
+    border-color: #888888;
+  }
+  
+  /* Nút đăng ký */
+  .btn-submit {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 30px auto 0;
+    padding: 12px 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .btn-submit:active {
+    background-color: #003f8a;
+    transform: translateY(0);
+  }
+  
+  /* Điều khoản sử dụng */
+  .terms {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555555;
+    margin-top: 20px;
+  }
+  
+  .terms .terms-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .terms .terms-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .register-advance-form .form-row {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .btn-submit {
+      width: 100%;
+    }
+  }
+  
